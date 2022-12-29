@@ -16,7 +16,7 @@
   ],
   "name": "@jadinheaston/node-express-template",
   "version": "1.0.0",
-  "private": false,
+  "private": true,
   "repository": {
     "GitHub": "https://github.com/JadinHeaston/node-express-template"
   },
