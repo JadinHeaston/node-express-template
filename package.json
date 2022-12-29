@@ -2,8 +2,9 @@
   "main": "./backend/server.js",
   "type": "commonjs",
   "scripts": {
-    "dev": "nodemon ./backend/server.js",
-    "start": "node ./backend/server.js"
+    "compile": "tsc && node ./backend/server.js",
+    "dev": "nodemon -e .ts --exec \"npm run compile\"",
+    "prod": "tsc && node ./backend/server.js"
   },
   "author": "Jadin Heaston",
   "license": "GNU GPL v3",
